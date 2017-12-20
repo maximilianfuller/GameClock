@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C44446E1FAFB9BE00FEBC54 /* HMSPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C44446D1FAFB9BE00FEBC54 /* HMSPicker.swift */; };
+		1C4A072F1FA5173200F9B492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A072E1FA5173200F9B492 /* AppDelegate.swift */; };
+		1C4A07311FA5173200F9B492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A07301FA5173200F9B492 /* ViewController.swift */; };
+		1C4A07341FA5173200F9B492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07321FA5173200F9B492 /* Main.storyboard */; };
+		1C4A07361FA5173200F9B492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07351FA5173200F9B492 /* Assets.xcassets */; };
+		1C4A07391FA5173200F9B492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07371FA5173200F9B492 /* LaunchScreen.storyboard */; };
+		1C4A07411FA51BFA00F9B492 /* ClockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A07401FA51BFA00F9B492 /* ClockManager.swift */; };
+		1C4A07431FA5370900F9B492 /* droid-sans-mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07421FA5370400F9B492 /* droid-sans-mono.ttf */; };
+		1C4A07481FA630CD00F9B492 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07451FA630CD00F9B492 /* pause.png */; };
+		1C4A07491FA630CD00F9B492 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07461FA630CD00F9B492 /* restart.png */; };
+		1C4A074A1FA630CD00F9B492 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A07471FA630CD00F9B492 /* menu.png */; };
+		1C4A074C1FA63C8D00F9B492 /* Cousine-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A074B1FA63C8D00F9B492 /* Cousine-Regular.ttf */; };
+		1C4A074E1FA63E6D00F9B492 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A074D1FA63E6D00F9B492 /* Ubuntu-R.ttf */; };
+		1C4A07501FA671E400F9B492 /* Phase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A074F1FA671E400F9B492 /* Phase.swift */; };
+		1C4A07551FA673E100F9B492 /* AbsolutePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A07541FA673E100F9B492 /* AbsolutePhase.swift */; };
+		1C4A07581FA674CF00F9B492 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A07571FA674CF00F9B492 /* Utils.swift */; };
+		1C4A075A1FA677FE00F9B492 /* ByoYomiPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A07591FA677FE00F9B492 /* ByoYomiPhase.swift */; };
+		1C4A075C1FA695B700F9B492 /* PhaseClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A075B1FA695B700F9B492 /* PhaseClock.swift */; };
+		1C4A075F1FA696A800F9B492 /* AbsolutePhaseClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A075E1FA696A800F9B492 /* AbsolutePhaseClock.swift */; };
+		1C4A07611FA6AFD800F9B492 /* ByoYomiPhaseClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A07601FA6AFD800F9B492 /* ByoYomiPhaseClock.swift */; };
+		1C4ABC751FBABDB0006CAC98 /* AbsoluteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4ABC741FBABDB0006CAC98 /* AbsoluteDetailViewController.swift */; };
+		1C4ABC771FBAC2D8006CAC98 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4ABC761FBAC2D8006CAC98 /* DetailViewController.swift */; };
+		1C4ABC8D1FBC072B006CAC98 /* ByoYomiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4ABC8C1FBC072B006CAC98 /* ByoYomiDetailViewController.swift */; };
+		1C4ABC8F1FBC1435006CAC98 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4ABC8E1FBC1435006CAC98 /* back.png */; };
+		1C4ABC911FBC1617006CAC98 /* ByoYomiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4ABC901FBC1617006CAC98 /* ByoYomiPicker.swift */; };
+		1C5224371FCBCA4600E54C67 /* IncrementPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5224361FCBCA4600E54C67 /* IncrementPhase.swift */; };
+		1C5224391FCBCB3900E54C67 /* IncrementPhaseClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5224381FCBCB3900E54C67 /* IncrementPhaseClock.swift */; };
+		1C52243B1FCBCC7A00E54C67 /* CanadianPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52243A1FCBCC7A00E54C67 /* CanadianPhase.swift */; };
+		1C52243D1FCBCD9500E54C67 /* CanadianPhaseClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52243C1FCBCD9500E54C67 /* CanadianPhaseClock.swift */; };
+		1C52247A1FD6603500E54C67 /* CanadianPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5224791FD6603500E54C67 /* CanadianPicker.swift */; };
+		1C52247C1FD6618200E54C67 /* CanadianDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52247B1FD6618200E54C67 /* CanadianDetailViewController.swift */; };
+		1C52247E1FD6939A00E54C67 /* IncrementPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52247D1FD6939A00E54C67 /* IncrementPicker.swift */; };
+		1C5224C41FDAA4E000E54C67 /* DetailContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5224C31FDAA4E000E54C67 /* DetailContainerViewController.swift */; };
+		1C5E1E3B1FB2F01C00EDD1A6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E1E3A1FB2F01C00EDD1A6 /* play.png */; };
+		1CCEF4201FABF62C008F183A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCEF41F1FABF62C008F183A /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C44446D1FAFB9BE00FEBC54 /* HMSPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSPicker.swift; sourceTree = "<group>"; };
+		1C4A072B1FA5173200F9B492 /* GameClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4A072E1FA5173200F9B492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C4A07301FA5173200F9B492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C4A07331FA5173200F9B492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C4A07351FA5173200F9B492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C4A07381FA5173200F9B492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C4A073A1FA5173200F9B492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4A07401FA51BFA00F9B492 /* ClockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockManager.swift; sourceTree = "<group>"; };
+		1C4A07421FA5370400F9B492 /* droid-sans-mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "droid-sans-mono.ttf"; sourceTree = "<group>"; };
+		1C4A07451FA630CD00F9B492 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		1C4A07461FA630CD00F9B492 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		1C4A07471FA630CD00F9B492 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		1C4A074B1FA63C8D00F9B492 /* Cousine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cousine-Regular.ttf"; sourceTree = "<group>"; };
+		1C4A074D1FA63E6D00F9B492 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		1C4A074F1FA671E400F9B492 /* Phase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase.swift; sourceTree = "<group>"; };
+		1C4A07541FA673E100F9B492 /* AbsolutePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePhase.swift; sourceTree = "<group>"; };
+		1C4A07571FA674CF00F9B492 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1C4A07591FA677FE00F9B492 /* ByoYomiPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByoYomiPhase.swift; sourceTree = "<group>"; };
+		1C4A075B1FA695B700F9B492 /* PhaseClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseClock.swift; sourceTree = "<group>"; };
+		1C4A075E1FA696A800F9B492 /* AbsolutePhaseClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePhaseClock.swift; sourceTree = "<group>"; };
+		1C4A07601FA6AFD800F9B492 /* ByoYomiPhaseClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByoYomiPhaseClock.swift; sourceTree = "<group>"; };
+		1C4ABC741FBABDB0006CAC98 /* AbsoluteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsoluteDetailViewController.swift; sourceTree = "<group>"; };
+		1C4ABC761FBAC2D8006CAC98 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1C4ABC8C1FBC072B006CAC98 /* ByoYomiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByoYomiDetailViewController.swift; sourceTree = "<group>"; };
+		1C4ABC8E1FBC1435006CAC98 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1C4ABC901FBC1617006CAC98 /* ByoYomiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByoYomiPicker.swift; sourceTree = "<group>"; };
+		1C5224361FCBCA4600E54C67 /* IncrementPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementPhase.swift; sourceTree = "<group>"; };
+		1C5224381FCBCB3900E54C67 /* IncrementPhaseClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementPhaseClock.swift; sourceTree = "<group>"; };
+		1C52243A1FCBCC7A00E54C67 /* CanadianPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadianPhase.swift; sourceTree = "<group>"; };
+		1C52243C1FCBCD9500E54C67 /* CanadianPhaseClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadianPhaseClock.swift; sourceTree = "<group>"; };
+		1C5224791FD6603500E54C67 /* CanadianPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadianPicker.swift; sourceTree = "<group>"; };
+		1C52247B1FD6618200E54C67 /* CanadianDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadianDetailViewController.swift; sourceTree = "<group>"; };
+		1C52247D1FD6939A00E54C67 /* IncrementPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementPicker.swift; sourceTree = "<group>"; };
+		1C5224C31FDAA4E000E54C67 /* DetailContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContainerViewController.swift; sourceTree = "<group>"; };
+		1C5E1E3A1FB2F01C00EDD1A6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		1CCEF41F1FABF62C008F183A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C4A07281FA5173200F9B492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C44446C1FAFB97D00FEBC54 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				1C44446D1FAFB9BE00FEBC54 /* HMSPicker.swift */,
+				1C4ABC901FBC1617006CAC98 /* ByoYomiPicker.swift */,
+				1C5224791FD6603500E54C67 /* CanadianPicker.swift */,
+				1C52247D1FD6939A00E54C67 /* IncrementPicker.swift */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		1C4A07221FA5173200F9B492 = {
+			isa = PBXGroup;
+			children = (
+				1C4A072D1FA5173200F9B492 /* GameClock */,
+				1C4A072C1FA5173200F9B492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C4A072C1FA5173200F9B492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A072B1FA5173200F9B492 /* GameClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C4A072D1FA5173200F9B492 /* GameClock */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A07511FA671F300F9B492 /* Source */,
+				1C4A07441FA62BD800F9B492 /* Resources */,
+				1C4A072E1FA5173200F9B492 /* AppDelegate.swift */,
+				1C4A07321FA5173200F9B492 /* Main.storyboard */,
+				1C4A07351FA5173200F9B492 /* Assets.xcassets */,
+				1C4A07371FA5173200F9B492 /* LaunchScreen.storyboard */,
+				1C4A073A1FA5173200F9B492 /* Info.plist */,
+			);
+			path = GameClock;
+			sourceTree = "<group>";
+		};
+		1C4A07441FA62BD800F9B492 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C4ABC8E1FBC1435006CAC98 /* back.png */,
+				1C5E1E3A1FB2F01C00EDD1A6 /* play.png */,
+				1C4A074D1FA63E6D00F9B492 /* Ubuntu-R.ttf */,
+				1C4A074B1FA63C8D00F9B492 /* Cousine-Regular.ttf */,
+				1C4A07471FA630CD00F9B492 /* menu.png */,
+				1C4A07451FA630CD00F9B492 /* pause.png */,
+				1C4A07461FA630CD00F9B492 /* restart.png */,
+				1C4A07421FA5370400F9B492 /* droid-sans-mono.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C4A07511FA671F300F9B492 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A07301FA5173200F9B492 /* ViewController.swift */,
+				1C4ABC8B1FBC06EC006CAC98 /* settings */,
+				1C44446C1FAFB97D00FEBC54 /* controls */,
+				1C4A07561FA674C100F9B492 /* utils */,
+				1C4A07521FA6721400F9B492 /* time */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1C4A07521FA6721400F9B492 /* time */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A075D1FA695BF00F9B492 /* phaseClock */,
+				1C4A07531FA6722900F9B492 /* phase */,
+				1C4A07401FA51BFA00F9B492 /* ClockManager.swift */,
+			);
+			path = time;
+			sourceTree = "<group>";
+		};
+		1C4A07531FA6722900F9B492 /* phase */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A074F1FA671E400F9B492 /* Phase.swift */,
+				1C4A07541FA673E100F9B492 /* AbsolutePhase.swift */,
+				1C4A07591FA677FE00F9B492 /* ByoYomiPhase.swift */,
+				1C5224361FCBCA4600E54C67 /* IncrementPhase.swift */,
+				1C52243A1FCBCC7A00E54C67 /* CanadianPhase.swift */,
+			);
+			path = phase;
+			sourceTree = "<group>";
+		};
+		1C4A07561FA674C100F9B492 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A07571FA674CF00F9B492 /* Utils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		1C4A075D1FA695BF00F9B492 /* phaseClock */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A075B1FA695B700F9B492 /* PhaseClock.swift */,
+				1C4A075E1FA696A800F9B492 /* AbsolutePhaseClock.swift */,
+				1C4A07601FA6AFD800F9B492 /* ByoYomiPhaseClock.swift */,
+				1C5224381FCBCB3900E54C67 /* IncrementPhaseClock.swift */,
+				1C52243C1FCBCD9500E54C67 /* CanadianPhaseClock.swift */,
+			);
+			path = phaseClock;
+			sourceTree = "<group>";
+		};
+		1C4ABC8B1FBC06EC006CAC98 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				1CCEF41F1FABF62C008F183A /* SettingsViewController.swift */,
+				1C4ABC761FBAC2D8006CAC98 /* DetailViewController.swift */,
+				1C4ABC741FBABDB0006CAC98 /* AbsoluteDetailViewController.swift */,
+				1C4ABC8C1FBC072B006CAC98 /* ByoYomiDetailViewController.swift */,
+				1C52247B1FD6618200E54C67 /* CanadianDetailViewController.swift */,
+				1C5224C31FDAA4E000E54C67 /* DetailContainerViewController.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C4A072A1FA5173200F9B492 /* GameClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4A073D1FA5173200F9B492 /* Build configuration list for PBXNativeTarget "GameClock" */;
+			buildPhases = (
+				1C4A07271FA5173200F9B492 /* Sources */,
+				1C4A07281FA5173200F9B492 /* Frameworks */,
+				1C4A07291FA5173200F9B492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameClock;
+			productName = GameClock;
+			productReference = 1C4A072B1FA5173200F9B492 /* GameClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C4A07231FA5173200F9B492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = maximilianfuller;
+				TargetAttributes = {
+					1C4A072A1FA5173200F9B492 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C4A07261FA5173200F9B492 /* Build configuration list for PBXProject "GameClock" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C4A07221FA5173200F9B492;
+			productRefGroup = 1C4A072C1FA5173200F9B492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C4A072A1FA5173200F9B492 /* GameClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C4A07291FA5173200F9B492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A07391FA5173200F9B492 /* LaunchScreen.storyboard in Resources */,
+				1C5E1E3B1FB2F01C00EDD1A6 /* play.png in Resources */,
+				1C4A07491FA630CD00F9B492 /* restart.png in Resources */,
+				1C4A07431FA5370900F9B492 /* droid-sans-mono.ttf in Resources */,
+				1C4A07481FA630CD00F9B492 /* pause.png in Resources */,
+				1C4A074C1FA63C8D00F9B492 /* Cousine-Regular.ttf in Resources */,
+				1C4A074A1FA630CD00F9B492 /* menu.png in Resources */,
+				1C4ABC8F1FBC1435006CAC98 /* back.png in Resources */,
+				1C4A074E1FA63E6D00F9B492 /* Ubuntu-R.ttf in Resources */,
+				1C4A07361FA5173200F9B492 /* Assets.xcassets in Resources */,
+				1C4A07341FA5173200F9B492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4A07271FA5173200F9B492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A075C1FA695B700F9B492 /* PhaseClock.swift in Sources */,
+				1C4A075A1FA677FE00F9B492 /* ByoYomiPhase.swift in Sources */,
+				1CCEF4201FABF62C008F183A /* SettingsViewController.swift in Sources */,
+				1C4A075F1FA696A800F9B492 /* AbsolutePhaseClock.swift in Sources */,
+				1C4ABC911FBC1617006CAC98 /* ByoYomiPicker.swift in Sources */,
+				1C52247A1FD6603500E54C67 /* CanadianPicker.swift in Sources */,
+				1C44446E1FAFB9BE00FEBC54 /* HMSPicker.swift in Sources */,
+				1C5224391FCBCB3900E54C67 /* IncrementPhaseClock.swift in Sources */,
+				1C4ABC751FBABDB0006CAC98 /* AbsoluteDetailViewController.swift in Sources */,
+				1C5224371FCBCA4600E54C67 /* IncrementPhase.swift in Sources */,
+				1C4A07501FA671E400F9B492 /* Phase.swift in Sources */,
+				1C4A07411FA51BFA00F9B492 /* ClockManager.swift in Sources */,
+				1C4A07311FA5173200F9B492 /* ViewController.swift in Sources */,
+				1C4A07551FA673E100F9B492 /* AbsolutePhase.swift in Sources */,
+				1C52243B1FCBCC7A00E54C67 /* CanadianPhase.swift in Sources */,
+				1C4A072F1FA5173200F9B492 /* AppDelegate.swift in Sources */,
+				1C52243D1FCBCD9500E54C67 /* CanadianPhaseClock.swift in Sources */,
+				1C52247E1FD6939A00E54C67 /* IncrementPicker.swift in Sources */,
+				1C4A07581FA674CF00F9B492 /* Utils.swift in Sources */,
+				1C5224C41FDAA4E000E54C67 /* DetailContainerViewController.swift in Sources */,
+				1C4ABC8D1FBC072B006CAC98 /* ByoYomiDetailViewController.swift in Sources */,
+				1C4A07611FA6AFD800F9B492 /* ByoYomiPhaseClock.swift in Sources */,
+				1C52247C1FD6618200E54C67 /* CanadianDetailViewController.swift in Sources */,
+				1C4ABC771FBAC2D8006CAC98 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C4A07321FA5173200F9B492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C4A07331FA5173200F9B492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C4A07371FA5173200F9B492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C4A07381FA5173200F9B492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C4A073B1FA5173200F9B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C4A073C1FA5173200F9B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C4A073E1FA5173200F9B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52693UCD;
+				INFOPLIST_FILE = GameClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximilianfuller.GameClock1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C4A073F1FA5173200F9B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52693UCD;
+				INFOPLIST_FILE = GameClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximilianfuller.GameClock1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C4A07261FA5173200F9B492 /* Build configuration list for PBXProject "GameClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A073B1FA5173200F9B492 /* Debug */,
+				1C4A073C1FA5173200F9B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4A073D1FA5173200F9B492 /* Build configuration list for PBXNativeTarget "GameClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A073E1FA5173200F9B492 /* Debug */,
+				1C4A073F1FA5173200F9B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C4A07231FA5173200F9B492 /* Project object */;
+}
